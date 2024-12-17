@@ -4,12 +4,14 @@
 [FigJam fil](https://www.figma.com/board/XsfR395gyInnjUzUi02bMt/Untitled?node-id=0-1&t=reEvga0fuCi4wSkx-1) <- skissa på class/databasstruktur
 
 ## Tech stack
+
 Frontend:
 - React
   - React router
   - React query
 - Vite
 - (Tailwind?)
+  
 Backend:
 - Cloudflare D1 SQLITE
 - Hono
