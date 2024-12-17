@@ -19,3 +19,12 @@ Backend:
 - **DevOps:** GitHub
 - **Deployment:** Cloudflare workers
 
+- [ ] SIDA FÖR LÄRARE
+  - [ ] TA NÄRVARO
+  - [ ] LÄGGA UPP UPPGIFTER MED INLÄMNING
+  - [ ] SÄTTA BETYG
+  - [ ] INKORG MEDDELANDE FRÅN ELEVER
+
+- [ ] SIDA FÖR ELEVER
+  - [ ] SE UPPGIFTER, LADDA UPP PDF
+  - [ ] MEDDELA LÄRARE
