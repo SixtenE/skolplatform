@@ -1,7 +1,9 @@
-import { int, sqliteTable, text } from "drizzle-orm/sqlite-core";
-export const usersTable = sqliteTable("users_table", {
-  id: int().primaryKey({ autoIncrement: true }),
-  name: text().notNull(),
-  age: int().notNull(),
-  email: text().notNull().unique(),
-});
+import { index, int, sqliteTable } from "drizzle-orm/sqlite-core";
+
+export const users = sqliteTable(
+  "users",
+  {
+    id: int(),
+  },
+  (t) => [index("custom_name").on(t.id)]
+);
